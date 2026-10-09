@@ -7,13 +7,3 @@ config NFCT_PINS_AS_GPIOS
     default y
 
 endif
-
-if SHIELD_AEROGU34_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "Aerogu34"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
